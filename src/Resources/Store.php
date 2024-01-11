@@ -28,21 +28,21 @@ class Store extends Resource
      *
      * @var string
      */
-    public string $address;
+    public ?string $address;
 
     /**
      * The phone number of the store.
      *
      * @var string
      */
-    public string $phoneNumber;
+    public ?string $phoneNumber;
 
     /**
      * The description of the store.
      *
      * @var string
      */
-    public string $description;
+    public ?string $description;
 
     /**
      * The time when this resource was created.
